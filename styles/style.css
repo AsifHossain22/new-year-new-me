@@ -19,6 +19,34 @@
     padding: 50px 140px;
     } */
 
+body {
+  font-family: "Inter", serif;
+}
+
+.button-container .btn-primary,
+.button-container .btn-secondary {
+  background-color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  transition-duration: 0.3s;
+}
+.button-container .btn-primary:hover {
+  background-color: #c70505;
+}
+
+.button-container .btn-secondary {
+  background-color: transparent;
+  transition-duration: 0.3s;
+}
+.button-container .btn-secondary:hover {
+  background-color: #ff0000;
+}
+
 /* 
 * BannerStyle 
 */
@@ -34,7 +62,7 @@
   align-items: center;
   justify-content: center;
 }
-.banner-content {
+.banner-section .banner-content {
   text-align: center;
   font-family: "Merriweather", serif;
 }
@@ -55,7 +83,6 @@
   flex-direction: column;
   align-items: center;
   padding: 120px 0;
-  font-family: "Inter", serif;
 }
 .sixty-percent-off .title {
   color: #ff0000;
@@ -78,4 +105,67 @@
 }
 .sixty-percent-off .image img {
   width: 600px;
+}
+
+/* 
+* MidnightPartyStyle 
+*/
+.midnight-party-section {
+  background-image: url(../images/midnight-party-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.midnight-party-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 125px;
+}
+.midnight-party-content {
+}
+.midnight-party-content .title {
+  font-size: 60px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+.midnight-party-content .description {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 20px 0 30px;
+}
+.midnight-party-content .button-container {
+}
+
+/* 
+* TimingStyle
+*/
+.timing {
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timing-container {
+  background-color: #dfaaaa;
+  border-radius: 20px;
+  padding: 100px 225px 120px;
+}
+.timing .timing-content {
+  text-align: center;
+}
+.timing .timing-content p {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.timing .timing-content p span {
+  color: #ff0000;
+}
+.timing .timing-content .button-container {
+  padding-top: 40px;
 }
