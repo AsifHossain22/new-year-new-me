@@ -51,13 +51,27 @@ body {
 * BannerStyle 
 */
 .banner-section {
-  background-image: url(../images/banner-img.png),
+  /* background-image: url(../images/banner-img.png),
     url(../images/banner-dark-shadow.png),
     linear-gradient(#070211 0%, #070211 100%);
   background-position: center, center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.banner-container {
+  margin: 100px 200px;
+  background-image: url(../images/banner-img.png),
+    url(../images/banner-dark-shadow.png),
+    linear-gradient(#070211 0%, #070211 100%);
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +96,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 0;
+}
+.sixty-percent-off-container {
+  padding: 0 200px;
+  text-align: center;
 }
 .sixty-percent-off .title {
   color: #ff0000;
@@ -111,21 +128,22 @@ body {
 * MidnightPartyStyle 
 */
 .midnight-party-section {
+  padding-top: 120px;
+}
+.midnight-party-section .midnight-party-container {
   background-image: url(../images/midnight-party-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-}
-.midnight-party-container {
-  height: 100vh;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
-  padding: 0 125px;
+  margin: 0 200px;
+  padding: 0px;
 }
 .midnight-party-content {
+  padding: 60px;
 }
 .midnight-party-content .title {
   font-size: 60px;
@@ -140,12 +158,19 @@ body {
 }
 .midnight-party-content .button-container {
 }
+.midnight-party-section .mid-night-party-image {
+  padding: 30px;
+  width: 400px;
+}
+.midnight-party-section .mid-night-party-image img {
+  width: 100%;
+}
 
 /* 
 * TimingStyle
 */
 .timing {
-  padding: 120px 0;
+  padding-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,4 +193,138 @@ body {
 }
 .timing .timing-content .button-container {
   padding-top: 40px;
+}
+
+/* 
+* ComingSoonStyle
+*/
+.coming-soon {
+  padding: 120px 200px;
+}
+.coming-soon .coming-soon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+.coming-soon .coming-soon-container .left-item {
+}
+.coming-soon .coming-soon-container .left-item .sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+}
+.coming-soon .coming-soon-container .left-item .title {
+  font-size: 48px;
+  font-weight: 900;
+  padding: 15px 0 20px;
+  color: #070211;
+  font-family: "Merriweather", serif;
+}
+.coming-soon .coming-soon-container .left-item .description {
+  font-size: 20px;
+}
+.coming-soon .coming-soon-container .center-item {
+}
+.coming-soon .coming-soon-container .center-item .image {
+  width: 365px;
+  height: 365px;
+}
+.coming-soon .coming-soon-container .center-item .image img {
+  width: 100%;
+}
+.coming-soon .coming-soon-container .right-item {
+}
+.coming-soon .coming-soon-container .right-item .title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff0000;
+}
+.coming-soon .coming-soon-container .right-item .image {
+  width: 140px;
+}
+.coming-soon .coming-soon-container .right-item .image img {
+  width: 100%;
+}
+
+/* 
+* HolidayStyle
+*/
+.holiday {
+  padding: 0 200px;
+}
+.holiday .holiday-container-top {
+  text-align: center;
+}
+.holiday .holiday-container-top .sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+.holiday .holiday-container-top .title {
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+.holiday .holiday-container-top .title span {
+  color: #ff0000;
+}
+.holiday .holiday-container-top .description {
+  padding: 30px 0 60px;
+}
+.holiday .holiday-container-bottom {
+  background-image: url(../images/holiday-bg-bottom.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  padding-top: 0px;
+}
+.holiday .holiday-container-bottom .left-item {
+  width: 630px;
+}
+.holiday .holiday-container-bottom .left-item img {
+  width: 100%;
+}
+.holiday .holiday-container-bottom .right-item {
+  width: 350px;
+}
+.holiday .holiday-container-bottom .right-item img {
+  width: 100%;
+}
+
+/* 
+* PortfolioStyle
+*/
+.portfolio {
+}
+.portfolio .portfolio-container {
+  padding: 120px 200px;
+}
+.portfolio .portfolio-container .portfolio-content {
+  padding-bottom: 40px;
+}
+.portfolio .portfolio-container .portfolio-content .sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+}
+.portfolio .portfolio-container .portfolio-content .title {
+  font-size: 48px;
+  font-weight: 900;
+  padding: 15px 0 20px;
+}
+.portfolio .portfolio-container .portfolio-content .description {
+  font-size: 20px;
+}
+.portfolio .portfolio-container .portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-item {
+  width: 300px;
+}
+.portfolio .portfolio-container .portfolio-gallery .portfolio-item img {
+  width: 100%;
 }
