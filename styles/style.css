@@ -46,3 +46,36 @@
   color: white;
   font-size: 30px;
 }
+
+/* 
+* SixtyPercentStyle 
+*/
+.sixty-percent-off {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
+  font-family: "Inter", serif;
+}
+.sixty-percent-off .title {
+  color: #ff0000;
+  font-size: 80px;
+  font-weight: 700;
+}
+.sixty-percent-off .sub-title {
+  color: #070211;
+  font-size: 45px;
+  font-weight: 700;
+}
+.sixty-percent-off .mini-title {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 30px 0 15px;
+}
+.sixty-percent-off .image {
+  margin-top: 40px;
+}
+.sixty-percent-off .image img {
+  width: 600px;
+}
