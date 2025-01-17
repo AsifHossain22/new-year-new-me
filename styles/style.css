@@ -176,7 +176,7 @@ body {
   justify-content: center;
 }
 .timing-container {
-  background-color: #dfaaaa;
+  background-color: #ff000043;
   border-radius: 20px;
   padding: 100px 225px 120px;
 }
@@ -327,4 +327,59 @@ body {
 }
 .portfolio .portfolio-container .portfolio-gallery .portfolio-item img {
   width: 100%;
+}
+
+/* 
+* SubscriptionStyle
+*/
+.subscription {
+  padding-bottom: 120px;
+}
+.subscription-container {
+  margin: 0 200px;
+  padding: 80px 120px;
+  text-align: center;
+  background-color: #ff000043;
+  border-radius: 20px;
+}
+.subscription-container .image {
+}
+.subscription-container .image img {
+}
+.subscription-container .title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  padding: 40px 0 20px;
+}
+.subscription-container .description {
+  font-size: 20px;
+  color: #070211;
+}
+.subscribe-button-container {
+}
+.subscribe-button-container input {
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+}
+.subscribe-button-container input[type="email"] {
+  width: 65%;
+  border-radius: 50px 0px 0px 50px;
+}
+.subscribe-button-container input[type="email"]:focus-visible {
+  outline: none;
+}
+.subscribe-button-container input[type="submit"] {
+  border-radius: 0px 50px 50px 0px;
+  margin-left: -10px;
+  background-color: #ff0000;
+  color: #ffffff;
+  transition-duration: 0.3s;
+}
+.subscribe-button-container input[type="submit"]:hover {
+  background-color: #ad1414;
 }
