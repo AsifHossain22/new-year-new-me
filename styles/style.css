@@ -35,6 +35,7 @@ body {
   padding: 16px 32px;
   transition-duration: 0.3s;
 }
+
 .button-container .btn-primary:hover {
   background-color: #c70505;
 }
@@ -43,6 +44,7 @@ body {
   background-color: transparent;
   transition-duration: 0.3s;
 }
+
 .button-container .btn-secondary:hover {
   background-color: #ff0000;
 }
@@ -50,18 +52,6 @@ body {
 /* 
 * BannerStyle 
 */
-.banner-section {
-  /* background-image: url(../images/banner-img.png),
-    url(../images/banner-dark-shadow.png),
-    linear-gradient(#070211 0%, #070211 100%);
-  background-position: center, center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
-}
 .banner-container {
   margin: 100px 200px;
   background-image: url(../images/banner-img.png),
@@ -76,14 +66,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .banner-section .banner-content {
   text-align: center;
   font-family: "Merriweather", serif;
 }
+
 .banner-content .title {
   color: white;
   font-size: 70px;
 }
+
 .banner-content .subtitle {
   color: white;
   font-size: 30px;
@@ -97,29 +90,35 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .sixty-percent-off-container {
   padding: 0 200px;
   text-align: center;
 }
+
 .sixty-percent-off .title {
   color: #ff0000;
   font-size: 80px;
   font-weight: 700;
 }
+
 .sixty-percent-off .sub-title {
   color: #070211;
   font-size: 45px;
   font-weight: 700;
 }
+
 .sixty-percent-off .mini-title {
   color: #ff0000;
   font-size: 24px;
   font-weight: 500;
   padding: 30px 0 15px;
 }
+
 .sixty-percent-off .image {
   margin-top: 40px;
 }
+
 .sixty-percent-off .image img {
   width: 600px;
 }
@@ -130,6 +129,7 @@ body {
 .midnight-party-section {
   padding-top: 120px;
 }
+
 .midnight-party-section .midnight-party-container {
   background-image: url(../images/midnight-party-bg.png);
   background-position: center;
@@ -142,26 +142,28 @@ body {
   margin: 0 200px;
   padding: 0px;
 }
+
 .midnight-party-content {
   padding: 60px;
 }
+
 .midnight-party-content .title {
   font-size: 60px;
   font-weight: 900;
   color: #ffffff;
   letter-spacing: 10px;
 }
+
 .midnight-party-content .description {
   font-size: 18px;
   color: #ffffff;
   padding: 20px 0 30px;
 }
-.midnight-party-content .button-container {
-}
 .midnight-party-section .mid-night-party-image {
   padding: 30px;
   width: 400px;
 }
+
 .midnight-party-section .mid-night-party-image img {
   width: 100%;
 }
@@ -175,22 +177,27 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .timing-container {
   background-color: #ff000043;
   border-radius: 20px;
   padding: 100px 225px 120px;
 }
+
 .timing .timing-content {
   text-align: center;
 }
+
 .timing .timing-content p {
   font-size: 30px;
   font-weight: 600;
   padding: 10px 0;
 }
+
 .timing .timing-content p span {
   color: #ff0000;
 }
+
 .timing .timing-content .button-container {
   padding-top: 40px;
 }
@@ -201,19 +208,19 @@ body {
 .coming-soon {
   padding: 120px 200px;
 }
+
 .coming-soon .coming-soon-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 15px;
 }
-.coming-soon .coming-soon-container .left-item {
-}
 .coming-soon .coming-soon-container .left-item .sub-title {
   font-size: 24px;
   font-weight: 500;
   color: #ff0000;
 }
+
 .coming-soon .coming-soon-container .left-item .title {
   font-size: 48px;
   font-weight: 900;
@@ -221,28 +228,28 @@ body {
   color: #070211;
   font-family: "Merriweather", serif;
 }
+
 .coming-soon .coming-soon-container .left-item .description {
   font-size: 20px;
-}
-.coming-soon .coming-soon-container .center-item {
 }
 .coming-soon .coming-soon-container .center-item .image {
   width: 365px;
   height: 365px;
 }
+
 .coming-soon .coming-soon-container .center-item .image img {
   width: 100%;
-}
-.coming-soon .coming-soon-container .right-item {
 }
 .coming-soon .coming-soon-container .right-item .title {
   font-size: 48px;
   font-weight: 700;
   color: #ff0000;
 }
+
 .coming-soon .coming-soon-container .right-item .image {
   width: 140px;
 }
+
 .coming-soon .coming-soon-container .right-item .image img {
   width: 100%;
 }
@@ -253,25 +260,31 @@ body {
 .holiday {
   padding: 0 200px;
 }
+
 .holiday .holiday-container-top {
   text-align: center;
 }
+
 .holiday .holiday-container-top .sub-title {
   font-size: 24px;
   font-weight: 500;
   color: #070211;
 }
+
 .holiday .holiday-container-top .title {
   font-size: 72px;
   font-weight: 900;
   font-family: "Merriweather", serif;
 }
+
 .holiday .holiday-container-top .title span {
   color: #ff0000;
 }
+
 .holiday .holiday-container-top .description {
   padding: 30px 0 60px;
 }
+
 .holiday .holiday-container-bottom {
   background-image: url(../images/holiday-bg-bottom.png);
   background-position: bottom;
@@ -280,15 +293,19 @@ body {
   display: flex;
   padding-top: 0px;
 }
+
 .holiday .holiday-container-bottom .left-item {
   width: 630px;
 }
+
 .holiday .holiday-container-bottom .left-item img {
   width: 100%;
 }
+
 .holiday .holiday-container-bottom .right-item {
   width: 350px;
 }
+
 .holiday .holiday-container-bottom .right-item img {
   width: 100%;
 }
@@ -296,35 +313,40 @@ body {
 /* 
 * PortfolioStyle
 */
-.portfolio {
-}
 .portfolio .portfolio-container {
   padding: 120px 200px;
 }
+
 .portfolio .portfolio-container .portfolio-content {
   padding-bottom: 40px;
 }
+
 .portfolio .portfolio-container .portfolio-content .sub-title {
   font-size: 24px;
   font-weight: 500;
   color: #ff0000;
 }
+
 .portfolio .portfolio-container .portfolio-content .title {
   font-size: 48px;
   font-weight: 900;
   padding: 15px 0 20px;
 }
+
 .portfolio .portfolio-container .portfolio-content .description {
   font-size: 20px;
 }
+
 .portfolio .portfolio-container .portfolio-gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
 }
+
 .portfolio .portfolio-container .portfolio-gallery .portfolio-item {
   width: 300px;
 }
+
 .portfolio .portfolio-container .portfolio-gallery .portfolio-item img {
   width: 100%;
 }
@@ -335,6 +357,7 @@ body {
 .subscription {
   padding-bottom: 120px;
 }
+
 .subscription-container {
   margin: 0 200px;
   padding: 80px 120px;
@@ -342,21 +365,16 @@ body {
   background-color: #ff000043;
   border-radius: 20px;
 }
-.subscription-container .image {
-}
-.subscription-container .image img {
-}
 .subscription-container .title {
   font-size: 48px;
   font-weight: 900;
   color: #070211;
   padding: 40px 0 20px;
 }
+
 .subscription-container .description {
   font-size: 20px;
   color: #070211;
-}
-.subscribe-button-container {
 }
 .subscribe-button-container input {
   padding: 30px;
@@ -366,13 +384,16 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .subscribe-button-container input[type="email"] {
   width: 65%;
   border-radius: 50px 0px 0px 50px;
 }
+
 .subscribe-button-container input[type="email"]:focus-visible {
   outline: none;
 }
+
 .subscribe-button-container input[type="submit"] {
   border-radius: 0px 50px 50px 0px;
   margin-left: -10px;
@@ -380,6 +401,68 @@ body {
   color: #ffffff;
   transition-duration: 0.3s;
 }
+
 .subscribe-button-container input[type="submit"]:hover {
   background-color: #ad1414;
+}
+
+/* 
+* FooterStyle
+*/
+.footer {
+  padding: 120px 140px;
+  background-color: #070211;
+  color: #ffffff;
+}
+
+.footer .footer-container {
+  padding: 0px 60px;
+}
+
+.footer .footer-container .footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.footer .footer-container .footer-top .left-info p {
+  width: 60%;
+  line-height: 24px;
+}
+.footer .footer-container .footer-top .right-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+.footer .footer-container .footer-top .right-info ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .footer-container .social-icon-container {
+  padding: 50px 0;
+}
+
+.footer .footer-container .social-icon-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.footer .footer-container .social-icon-container ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+hr {
+  padding: 1px;
+  margin: 25px 0;
+  background: #ffffff22;
+  border: none;
+}
+
+.footer .footer-container .footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
